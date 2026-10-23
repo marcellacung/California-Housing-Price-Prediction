@@ -1,42 +1,16 @@
-# ==========================================
-# Python & Machine Learning Artifacts
-# ==========================================
-# Ignore trained models (karena ukurannya terlalu besar untuk GitHub)
+# Ignore large machine learning models
 *.pkl
-*.h5
-*.joblib
 model_metadata.json
 
-# Ignore data files (jika ada data lokal yang besar)
-*.csv
-*.xlsx
-*.parquet
-
-# ==========================================
-# Python Cache & Virtual Environments
-# ==========================================
+# Python Cache & Environments
 __pycache__/
 *.py[cod]
-*$py.class
 venv/
 env/
 .venv/
-.pytest_cache/
-.ipynb_checkpoints/
 
-# ==========================================
-# IDE & OS Files
-# ==========================================
-# VS Code
+# IDE & OS files
 .vscode/
-
-# PyCharm / IntelliJ
 .idea/
-*.iml
-
-# Mac OS
 .DS_Store
-
-# Windows
 Thumbs.db
-desktop.ini
